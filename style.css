@@ -69,6 +69,8 @@ header {
 
 /** NAV BAR END **/
 
+/** Homepage Content TOP **/
+
 .page_landing {
   top: 100px;
   height: 800px;
@@ -78,13 +80,12 @@ header {
 .background_image {
   background-color: #fec72e;
   z-index: -1;
-  height: 700px;
+  height: 600px;
   position: absolute;
 }
 
 .page_landing_content {
   display: flex;
-  padding-top: 100px;
 }
 
 .page_landing_content-left {
@@ -109,4 +110,66 @@ header {
 .page_landing_content-right img {
   width: auto;
   height: auto;
+}
+
+/** Homepage content END **/
+
+.page_middle {
+  font-family: 'Open Sans', sans-serif;
+  height: 500px;
+}
+
+.page_middle h2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.page_middle h4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.page_middle_face_center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.page_middle_text {
+  display: flex;
+  justify-content: flex-start;
+  height: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page_middle_face {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.page_middle_face .box {
+  width: 100px;
+  height: 100px;
+  background-color: #fec72e;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_middle_face .box img {
+  width: auto;
+  height: 90px;
+}
+
+.page_middle_face .box:hover {
+  transform: scale(1.1);
 }
