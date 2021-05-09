@@ -70,6 +70,43 @@ header {
 /** NAV BAR END **/
 
 .page_landing {
-  height: 100%;
+  top: 100px;
+  height: 90%;
   width: 100%;
+}
+
+.background_image {
+  background-color: #fec72e;
+  z-index: -1;
+  height: 75%;
+  position: absolute;
+}
+
+.page_landing_content {
+  display: flex;
+  padding-top: 100px;
+}
+
+.page_landing_content-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  height: 75%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page_landing_content-left h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.page_landing_content-right {
+  display: flex;
+  align-items: center;
+}
+
+.page_landing_content-right img {
+  width: auto;
+  height: auto;
 }
