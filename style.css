@@ -71,14 +71,14 @@ header {
 
 .page_landing {
   top: 100px;
-  height: 90%;
+  height: 800px;
   width: 100%;
 }
 
 .background_image {
   background-color: #fec72e;
   z-index: -1;
-  height: 75%;
+  height: 700px;
   position: absolute;
 }
 
